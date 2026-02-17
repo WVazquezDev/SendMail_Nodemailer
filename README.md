@@ -117,10 +117,6 @@ Error:
 }
 ```
 
-## Observaciones importantes
-- En `src/routes/send.js` se usa `TO_MV`, pero esa constante no está importada/exportada actualmente. Si llamas `POST /mail/sendMailMV`, puede fallar por referencia no definida.
-- El puerto está fijo en `3000` en `app.js`.
-
 ## Seguridad
 - No subas `.env` al repositorio.
 - Si alguna credencial OAuth2 fue expuesta, revócala y genera nuevas credenciales inmediatamente.
