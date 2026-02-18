@@ -4,6 +4,7 @@ dotenv.config();
 export const {
   TO_WV,
   TO_MV,
+  NODE_ENV,
   NODEMAILER_USER,
   GOOGLE_CLIENT_ID,
   GOOGLE_CLIENT_SECRET,
